@@ -1,0 +1,46 @@
+.side-bar {
+    background-color: $color-primary;
+
+    grid-row: 1 / -1;
+    text-align: center;
+
+    @media only screen and (max-width: $bp-large) {
+        grid-column: 1/-1;
+        grid-row: 1/2;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    &__button {
+        width: 4.5rem;
+        height: .2rem;
+        background-color: #fff;
+        display: inline-block;
+        position: relative;
+        top: 4rem;
+
+        @media only screen and (max-width: $bp-large) {
+            top: 0;
+            right: 1rem;
+        }
+
+     
+
+        &::before,
+        &::after {
+            content: "";
+            display: inline-block;
+            background-color: #fff;
+            width: 4.5rem;
+            height: .2rem;
+            position: absolute;
+            left: 0;
+        }
+
+        &::before {top: -1.4rem;}
+        &::after {top: 1.4rem;}
+
+    }
+}
