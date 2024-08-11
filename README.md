@@ -27,7 +27,7 @@ This project is part of an online advanced CSS course designed to demonstrate pr
 Nexter is a real estate website showcasing modern homes, their features, and pricing. The design is intended to be both functional and aesthetically pleasing, providing a seamless user experience across different devices. The project primarily demonstrates the power and flexibility of CSS Grid in creating complex layouts.
 
 **View the live project at:**  
-
+https://morgrace-nexter.netlify.app/
 
 ## Features
 
