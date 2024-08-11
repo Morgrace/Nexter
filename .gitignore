@@ -5,7 +5,6 @@ node_modules/
 .sass-cache/
 
 # Ignore compiled CSS files if you want to exclude them from version control
-css/style.comp.css
 css/style.prefix.css
 
 # Ignore log files
